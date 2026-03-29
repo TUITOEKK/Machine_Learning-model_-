@@ -1,7 +1,7 @@
 
 # MACHINE LEARNING
-_
-Linear Regression(Section)_
+
+𝑳𝒊𝒏𝒆𝒂𝒓 𝑹𝒆𝒈𝒓𝒆𝒔𝒔𝒊𝒐𝒏(𝑺𝒆𝒄𝒕𝒊𝒐𝒏) 
 
     Concept Overview of Linear Model
 
@@ -19,7 +19,7 @@ Error is the difference between actual and predicted values:
 
 error = y - y_hat
 
-              Mean Squared Error
+    Mean Squared Error
 
 MSE measures how far predictions are from actual values:
 
