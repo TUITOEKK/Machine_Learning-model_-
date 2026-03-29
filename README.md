@@ -1,7 +1,7 @@
 
 # MACHINE LEARNING
-
-Linear Regression(SECTION)
+_
+Linear Regression(Section)_
 
     Concept Overview of Linear Model
 
