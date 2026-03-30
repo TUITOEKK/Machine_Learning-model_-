@@ -1,36 +1,21 @@
+## MACHINE LEARNING
 
-# MACHINE LEARNING
+#### Linear Regression Section
 
-𝑳𝒊𝒏𝒆𝒂𝒓 𝑹𝒆𝒈𝒓𝒆𝒔𝒔𝒊𝒐𝒏(𝑺𝒆𝒄𝒕𝒊𝒐𝒏) 
+Linear Regression predicts a continuous value using a straight line model. The equation is:
+y = mX + b
+m controls the slope. b shifts the line up or down.
 
-    Concept Overview of Linear Model
+The goal is to reduce prediction error. 
 
-The model predicts a value using a straight line:
+Error is the difference between the actual value and the predicted value:
 
-y = wx + b
+error = y - y_hat (different between predicted(line) and actual value point)
 
-w controls the slope
+#####  Mean Squared Error
 
-b shifts the line up or down
+measures how far predictions are from actual values. 
+It squares each error to remove negative values, penalize large mistakes, and support smooth optimization.
 
-Objective:
-The goal is to minimize prediction error.
-Error is the difference between actual and predicted values:
-
-error = y - y_hat
-
-    Mean Squared Error
-
-MSE measures how far predictions are from actual values:
-
-Square each error and
-take the average
-
-Why square errors:
-
-Removes negative values
-
-Penalizes large mistakes more than small ones
-
-Makes optimization smooth for gradient descent
-
+##### Gradient Descent vs Closed Form
+Gradient Descent updates model parameters step by step and works well on large datasets. Closed form computes the exact solution directly and fits small datasets better but does not scale well.
